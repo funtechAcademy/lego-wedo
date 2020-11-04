@@ -295,3 +295,26 @@ a.link_s:hover{
   background-color: rgba(68,117,255,1);
   color: white;
 }
+
+a.link_c
+{
+   font-weight: bold;
+   letter-spacing: 1px;
+   padding: 3px;
+   color: rgba(68,117,255,1);
+   border-radius: 10px 10px 10px 10px;
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border: 0px solid #000000;
+   text-align: center;
+}
+
+a.link_c:active
+{
+   color: rgb(9, 56, 185);
+}
+
+a.link_c:hover{
+  background-color: rgba(68,117,255,1);
+  color: white;
+}
