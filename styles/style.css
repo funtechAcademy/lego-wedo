@@ -296,7 +296,7 @@ a.link_s:hover{
   color: white;
 }
 
-a.link_c
+a.link_center
 {
    font-weight: bold;
    letter-spacing: 1px;
@@ -309,12 +309,12 @@ a.link_c
    text-align: center;
 }
 
-a.link_c:active
+a.link_center:active
 {
    color: rgb(9, 56, 185);
 }
 
-a.link_c:hover{
+a.link_ccenter:hover{
   background-color: rgba(68,117,255,1);
   color: white;
 }
