@@ -68,11 +68,21 @@ div#contenido>h2
 div#contenido>h3
 {
    margin: 0px;
-   padding: 45px;
+   padding: 25px;
    margin-left: 15px;
    font-size: 2em;
    font-family: 'Barlow Semi Condensed';
    color: rgba(68,117,255,1);
+}
+
+div#contenido>h4
+{
+   margin: 0px;
+   padding: 20px;
+   margin-left: 20px;
+   font-size: 1.5em;
+   font-family: 'Barlow Semi Condensed';
+   color: rgba(0,0,0,1);
 }
 
 div#contenido>ul
@@ -175,16 +185,6 @@ a.volver
    font-size: 1.2em;
    width: fit-content;
    margin-left: 50px;
-}
-
-div#contenido>h3
-{
-   margin: 0px;
-   padding: 30px;
-   margin-left: 15px;
-   font-size: 2em;
-   font-family: 'Barlow Semi Condensed';
-   color: rgba(68,117,255,1);
 }
 
 #pageloader /*Loader*/
