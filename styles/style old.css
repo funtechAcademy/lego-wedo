@@ -68,7 +68,7 @@ div#contenido>h2
 div#contenido>h3
 {
    margin: 0px;
-   padding: 30px;
+   padding: 25px;
    margin-left: 15px;
    font-size: 2em;
    font-family: 'Barlow Semi Condensed';
@@ -78,11 +78,11 @@ div#contenido>h3
 div#contenido>h4
 {
    margin: 0px;
-   padding: 30px;
-   margin-left: 15px;
+   padding: 20px;
+   margin-left: 20px;
    font-size: 1.5em;
    font-family: 'Barlow Semi Condensed';
-   color: rgba(68,117,255,1);
+   color: rgba(0,0,0,1);
 }
 
 div#contenido>ul
@@ -148,10 +148,6 @@ a.volver
    margin-top: 20px;
    font-size: 1.5em;
    color: rgba(68,117,255,1);
-   text-align: right;
-   display: inline-block;
-   width: 100%;
-   box-sizing: border-box;
 }
 
 .advertencia
@@ -177,26 +173,12 @@ a.volver
    margin-left: 50px;
 }
 
-.codigop
-{
-   font-family: 'Sanchez';
-   color: teal;
-   display: inline-block;
-   background-color: rgb(195, 243, 241);
-   margin: 10px;
-   padding: 20px;
-   border-radius: 10px;
-   font-size: 1em;
-   width: fit-content;
-   margin-left: 50px;
-}
-
 .nota
 {
    font-family: 'Sanchez';
    color: teal;
    display: inline-block;
-   background-color: rgb(195, 243, 204);
+   background-color: rgb(195, 243, 241);
    margin: 30px;
    padding: 20px;
    border-radius: 10px;
@@ -310,6 +292,54 @@ a.link_s:active
 }
 
 a.link_s:hover{
+  background-color: rgba(68,117,255,1);
+  color: white;
+}
+
+a.link_b
+{
+   target: new;
+   target-name: new;
+   target-new: tab;
+   font-weight: bold;
+   letter-spacing: 1px;
+   padding: 3px;
+   color: rgba(68,117,255,1);
+   border-radius: 10px 10px 10px 10px;
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border: 0px solid #000000;
+}
+
+a.link_b:active
+{
+   color: rgb(9, 56, 185);
+}
+
+a.link_b:hover{
+  background-color: rgba(68,117,255,1);
+  color: white;
+}
+
+a.link_center
+{
+   font-weight: bold;
+   letter-spacing: 1px;
+   padding: 3px;
+   color: rgba(68,117,255,1);
+   border-radius: 10px 10px 10px 10px;
+   -moz-border-radius: 10px 10px 10px 10px;
+   -webkit-border-radius: 10px 10px 10px 10px;
+   border: 0px solid #000000;
+   text-align: center;
+}
+
+a.link_center:active
+{
+   color: rgb(9, 56, 185);
+}
+
+a.link_ccenter:hover{
   background-color: rgba(68,117,255,1);
   color: white;
 }
